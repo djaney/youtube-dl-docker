@@ -1,4 +1,4 @@
-# build docker image to download youtube vides
+# build docker image to download youtube videos
 
 ## download playlist as audio
 
