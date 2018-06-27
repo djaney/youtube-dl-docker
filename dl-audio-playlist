@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "downloading ${1}"
+ytdl "${1}" --yes-playlist --extract-audio --audio-format mp3 -o "/downloads/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" --verbose
+
